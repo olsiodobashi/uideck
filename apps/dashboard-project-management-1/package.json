@@ -1,0 +1,8 @@
+{
+  "name": "@react-monorepo/dashboard-project-management-1",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "build": "npx nx build dashboard-project-management-1"
+  }
+}

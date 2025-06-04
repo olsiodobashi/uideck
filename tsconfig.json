@@ -1,0 +1,16 @@
+{
+  "extends": "./tsconfig.base.json",
+  "compileOnSave": false,
+  "files": [],
+  "references": [
+    {
+      "path": "./libs/shared/ui"
+    },
+    {
+      "path": "./apps/dashboard-project-management-1"
+    },
+    {
+      "path": "./apps/home"
+    }
+  ]
+}
