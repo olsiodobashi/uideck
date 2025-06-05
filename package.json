@@ -8,7 +8,7 @@
     "create-app": "npx nx g @nx/react:app --bundler=vite --unitTestRunner=none"
   },
   "engines": {
-    "node": "20.11.0"
+    "node": "20"
   },
   "private": true,
   "dependencies": {
