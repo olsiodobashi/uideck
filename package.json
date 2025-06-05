@@ -64,7 +64,6 @@
   "workspaces": [
     "apps/*",
     "libs/*",
-    "libs/shared/*",
-    "unitTestRunner=none"
+    "libs/shared/*"
   ]
 }
