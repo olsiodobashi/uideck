@@ -1,0 +1,5 @@
+{
+  "buildCommand": "npx nx build home",
+  "outputDirectory": "../../dist/apps/home",
+  "framework": null
+}
