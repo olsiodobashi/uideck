@@ -12,7 +12,7 @@ jobs:
     runs-on: ubuntu-latest
     strategy:
       matrix:
-        app: [dashboard-analytics, dashboard-project-management-1, dashboard-finance] # Add more as needed
+        app: [dashboard-project-management-1] # Add more as needed
 
     steps:
       - name: Checkout code
