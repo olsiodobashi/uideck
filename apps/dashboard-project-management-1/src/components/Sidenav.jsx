@@ -31,7 +31,7 @@ const Sidenav = () => (
                     <li className="nav-item" key={idx}>
                         <a
                             className="border-l-2 border-transparent text-[#738297] py-2 px-3 hover:text-white hover:border-l-blue-400 flex items-center"
-                            href="#"
+                            href="#" title={menu.label}
                         >
                             <i
                                 className={
