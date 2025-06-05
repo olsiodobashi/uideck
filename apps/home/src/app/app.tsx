@@ -1,7 +1,5 @@
 const dashboards = [
-  { name: 'Analytics Dashboard', path: '/dashboard-analytics' },
-  { name: 'Ecommerce Dashboard', path: '/dashboard-ecommerce' },
-  { name: 'Finance Dashboard', path: '/dashboard-finance' },
+  { name: 'Project Management 1', path: 'https://dashkit-project-management-1.vercel.app/' },
 ];
 
 export function App() {
