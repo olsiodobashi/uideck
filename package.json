@@ -7,6 +7,9 @@
     "tailwind": "npx nx g setup-tailwind",
     "create-app": "npx nx g @nx/react:app --bundler=vite --unitTestRunner=none"
   },
+  "engines": {
+    "node": "20.11.0"
+  },
   "private": true,
   "dependencies": {
     "react": "19.0.0",
