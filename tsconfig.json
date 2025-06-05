@@ -11,6 +11,9 @@
     },
     {
       "path": "./apps/home"
+    },
+    {
+      "path": "./apps/analytics-platform-1"
     }
   ]
 }

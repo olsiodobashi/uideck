@@ -4,7 +4,8 @@
   "license": "MIT",
   "scripts": {
     "start": "npx nx serve home",
-    "tailwind": "npx nx g setup-tailwind"
+    "tailwind": "npx nx g setup-tailwind",
+    "create-app": "npx nx g @nx/react:app --bundler=vite --unitTestRunner=none"
   },
   "private": true,
   "dependencies": {
@@ -60,6 +61,7 @@
   "workspaces": [
     "apps/*",
     "libs/*",
-    "libs/shared/*"
+    "libs/shared/*",
+    "unitTestRunner=none"
   ]
 }
