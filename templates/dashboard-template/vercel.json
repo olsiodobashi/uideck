@@ -1,0 +1,5 @@
+{
+  "buildCommand": "npx nx build dashboard-project-management-1",
+  "outputDirectory": "../../dist/apps/dashboard-project-management-1",
+  "framework": null
+}

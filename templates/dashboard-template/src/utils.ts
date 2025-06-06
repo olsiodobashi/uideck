@@ -12,7 +12,7 @@ export const convertHex = (hex: string, opacity: number) => {
 
 export const setStatusClass = (status: string) => {
   console.log(status);
-
+  
    switch (status) {
       case "In progress":
          return "before:border-[#DA932C]";
