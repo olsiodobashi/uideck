@@ -1,16 +1,22 @@
 const dashboards = [
-  { name: 'Project Management 1', path: 'https://dashkit-project-management-1.vercel.app/' },
+  {
+    name: 'Project Management 1',
+    path: 'https://dashkit-project-management-1.vercel.app/',
+  },
 ];
 
 export function App() {
   return (
     <div className="min-h-screen bg-gray-900 text-white font-sans flex flex-col items-center px-4 py-12">
-      <h1 className="text-4xl font-bold mb-4 text-center">React Dashboard Showcase</h1>
+      <h1 className="text-4xl font-bold mb-4 text-center">
+        React Dashboard Showcase
+      </h1>
       <p className="text-lg text-gray-300 text-center max-w-2xl mb-8">
-        A collection of beautiful, responsive, and modular dashboard templates built with React, Tailwind CSS, and Nx Monorepo.
+        A collection of beautiful, responsive, and modular dashboard templates
+        built with React, Tailwind CSS, and Nx Monorepo.
       </p>
 
-      <div className="mb-12 text-center">
+      {/* <div className="mb-12 text-center">
         <span className="text-gray-400">Created by </span>
         <a
           href="https://bsky.app/profile/olsiodobashi.bsky.social"
@@ -20,7 +26,7 @@ export function App() {
         >
           Olsi Odobashi
         </a>
-      </div>
+      </div> */}
 
       <div className="grid gap-6 grid-cols-1 sm:grid-cols-2 md:grid-cols-3">
         {dashboards.map((dash) => (
