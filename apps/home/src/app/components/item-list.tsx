@@ -11,7 +11,7 @@ const ItemList = () => {
       <div className="relative w-full flex flex-col md:flex-row mb-6">
          {dashboards.map((item, i) => (
             <a
-               className="flex flex-col grid-item w-1/3"
+               className="flex flex-col grid-item w-full md:w-1/2 lg:w-1/3"
                href={item.path}
                key={i}
             >
