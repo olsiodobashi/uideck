@@ -1,0 +1,33 @@
+name: Generate Thumbnails
+
+on:
+   workflow_dispatch:
+   push:
+      branches: [main]
+
+jobs:
+   screenshots:
+      runs-on: ubuntu-latest
+
+      steps:
+         - name: Checkout code
+           uses: actions/checkout@v4
+
+         - name: Set up Node.js
+           uses: actions/setup-node@v4
+           with:
+              node-version: '20'
+
+         - name: Install dependencies
+           run: npm install
+
+         - name: Run screenshot script
+           run: node utils/screenshot.js
+
+         - name: Commit and push thumbnails
+           run: |
+              git config user.name "github-actions"
+              git config user.email "github-actions@github.com"
+              git add .
+              git diff --cached --quiet || git commit -m "Update thumbnails"
+              git push

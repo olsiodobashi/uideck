@@ -14,6 +14,9 @@
     },
     {
       "path": "./apps/analytics-platform-1"
+    },
+    {
+      "path": "./templates/dashboard-template"
     }
   ]
 }
