@@ -21,13 +21,13 @@ jobs:
          - name: Install dependencies
            run: npm install
 
-         - name: Run screenshot script
-           run: node utils/screenshot.js
+         #  - name: Run screenshot script
+         #    run: node utils/screenshots.js
 
-         - name: Commit and push thumbnails
-           run: |
-              git config user.name "github-actions"
-              git config user.email "github-actions@github.com"
-              git add .
-              git diff --cached --quiet || git commit -m "Update thumbnails"
-              git push
+         #  - name: Commit and push thumbnails
+         #    run: |
+         #       git config user.name "github-actions"
+         #       git config user.email "github-actions@github.com"
+         #       git add .
+         #       git diff --cached --quiet || git commit -m "Update thumbnails"
+         #       git push

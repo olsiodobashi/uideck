@@ -130,7 +130,7 @@ main {
 
 main > .inner {
 	--padding-horizontal: 6rem;
-	--padding-vertical: 6rem;
+	--padding-vertical: 3rem;
 	--spacing: 1.5rem;
 	border-radius: var(--border-radius-tl) var(--border-radius-tr) var(--border-radius-br) var(--border-radius-bl);
 	max-width: 100%;
